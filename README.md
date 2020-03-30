@@ -4,55 +4,47 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
 
-Sig Club é uma aplicação que permite/tem por objetivo/visa/etc .... 
+O "Sig Club" é uma aplicação web desenvolvida para aproximar os leitores aos seus livros de respectivos interesses.
 
-Coloque aqui linhas adicionais com informações sobre o que a aplicação faz. Sua introdução deve ser de no máximo 3 parágrafos, seja simples e objetivo para não sobrecarregar de detalhes desnecessários este espaço. Se necessário, crie novas seções abaixo.
+Esta aplicação tem por objetivo alcançar pessoas amantes de livros e permitir que recebam livros para leitura de seu interesse. Não somente isso, mas também receberem alguns presentes para incentivo da leitura e ao alcance de mais conhecimento sobre os conteúdos de seus respectivos interesses.
 
 ## Pré-requisitos
 
 Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
-<!--- Estes são alguns exemplos de requisitos. Adicione, duplique e remove como necessário --->
-* Você deve possuir a última versão do `<linguagem/dependencia/etc>` instalado.
-* Você deve possuir uma máquina `<Windows/Linux/Mac>`. (Deixe claro qual SO é possível rodar a aplicação, Linux é obrigatório).
+
+* Você deve possuir a acesso a internet por um navegador, tais como chrome, firefox, edge ou semelhantes.
+* Você deve possuir um cartão de crédito/débito para assinar o plano.
+* Você deve possuir um endereço fixo, para que seja possível o envio dos packs.
 * Você deve ler o `<guia/link/documentação>` dos termos de uso.
-* (outros ...)
+
 
 ## Como executar
 
-Para fazer o deploy da aplicação siga os seguintes passos:
+Para acessar a aplicação siga os seguintes passos:
 
-Linux e/ou macOS:
-```
-<commando 1>
-<commando 2>
-....
-<commando n>
-```
+* Abra seu navegador e digite "Sig Club", ou digite a URL "https://sigclub...."
+* Em seguida cadastre-se, ou faça o login com seu usuário e senha.
+* E responda o questionário para entendermos melhor qual seu perfil de leitor.
 
-Windows (opcional):
-```
-<commandos>
-```
-
-## Usando Sig Club
+## Usando o Sig Club 
 
 Para usar Sig Club, siga os seguintes passos (exemplos):
 
-* Abra o navegador e digite o seguinte endereço: `http://localhost/....`
+* Abra o navegador e digite o seguinte endereço: `http://sigclub/....`, ou mesmo "Sig Club" 
 * Ao abrir a aplicação você poderá:
-  * Navegar pelo conteúdo público, ou
-  * Entrar com usuário e senha para ....
-* *Continua ...*  
-
-*Descreva as principais atividades, e/ou fluxos, que são possíveis de serem realizadas na aplicação.*
+  * Navegar pelo conteúdo público
+  * Entrar com usuário e senha para ter acesso as demais funcionalidades
+  * Responder o questionário
+  * Alterar plano/endereço/cartão
+  
 
 ## Contribuidores
 
 As seguintes pessoas contribuiram para este projeto:
 
 * Clara Giovana Lazarini
-* Frankner da Silva Soares
-* Moises Freitas Barbosa
+* Frankner Da Silva Soares
+* Moisés Freitas Barbosa
 * Willian Leite Barbosa Xavier
 
 ## Licença de uso

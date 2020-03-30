@@ -17,6 +17,14 @@ Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
 * Você deve ler o `<guia/link/documentação>` dos termos de uso.
 * (outros ...)
 
+## Backlog do Produto
+
+| ID |  História  |
+| ------------------- | ------------------- |
+|  1 |  O cliente deve conseguir preencher um questionário. |
+|  2 |  O cliente deve conseguir escolher o plano. |
+
+
 ## Como executar
 
 Para fazer o deploy da aplicação siga os seguintes passos:

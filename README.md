@@ -17,6 +17,14 @@ Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
 * Você deve ler o `<guia/link/documentação>` dos termos de uso.
 * (outros ...)
 
+## Teste Tabela
+
+| Primeiro cabeçalho  |  Segundo cabeçalho  |
+| ------------------- | ------------------- |
+|  Célula de conteúdo |  Célula de conteúdo |
+|  Célula de conteúdo |  Célula de conteúdo |
+
+
 ## Como executar
 
 Para fazer o deploy da aplicação siga os seguintes passos:

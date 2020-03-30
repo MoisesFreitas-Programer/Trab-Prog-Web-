@@ -23,7 +23,12 @@ Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
 | ------------------- | ------------------- |
 |  1 |  O cliente deve conseguir preencher um questionário. |
 |  2 |  O cliente deve conseguir escolher o plano. |
-
+|  3 |  O cliente deve conseguir incluir o item em um carrinho de compras. |
+|  4 |  O cliente deve conseguir pagar sua compra via boleto bancário. |
+|  5 |  O cliente deve conseguir pagar sua compra via cartão de crédito. |
+|  6 |  O cliente deve conseguir rastrear sua encomenda. |
+|  7 |  O cliente deve ser notificado por e-mail das etapas de sua compra (pagamento, aprovação, correio). |
+|  8 |  O cliente deve conseguir enviar feedback de seu atendimento após recebimento do produto. |
 
 ## Como executar
 

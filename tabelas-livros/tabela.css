@@ -1,0 +1,43 @@
+/*
+	FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL - UFMS
+	FACULDADE DE COMPUTAÇÃO - FACOM
+	DISCIPLINA : PROGRAMAÇÃO PARA WEB
+	PROFESSOR : HUDSON SILVA BORGES
+	ACADÊMICOS : Clara Giovana Lazarini / Frankner Da Silva Soares/ Moisés Freitas Barbosa/ Willian Leite Barbosa Xavier
+	PROJETO (TRABALHO) : Trab-Prog-Web-P01-2020-1
+
+*/
+
+#tabela {
+	font-family: "arial", sans-serif;
+	font-size: 16px;
+	margin: 3px;
+	text-align: left;
+	border-collapse: collapse;
+	width:50%;
+}
+
+#tabela th {
+	font-size:14px;
+	font-weight:normal;
+	text-align:center;
+	padding: 6px 10px 10px 10px;
+	color: #000;
+	background-image:  url('molde.jpg');
+	background-repeat:repeat-x;
+	border-bottom: 3px solid #cfdafd;
+
+}
+
+#tabela td {
+	text-align: center;
+}
+
+#tabela .alt {
+	background-image:url('molde.jpg');
+	background-repeat:repeat-x;
+}
+
+#tabela .clicked {
+	background-color: #e4ff65;
+}

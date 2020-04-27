@@ -8,9 +8,9 @@
 	<div id="corpo-form">
 			<h1>Entrar</h1>			
 			<form method="POST" action="processa.php"> 
-				<imput type="email" placeholder="Usuário">
-				<imput type="password" placeholder="Senha">
-				<imput type="submit" placeholder="ACESSAR">
+				<input type="email" placeholder="Usuário">
+				<input type="password" placeholder="Senha">
+				<input type="submit" placeholder="ACESSAR">
 				<a href=""> Ainda não possuicadastro?<strong>'Faça o seu!'</strong></a>
 			</form>
 	</div>

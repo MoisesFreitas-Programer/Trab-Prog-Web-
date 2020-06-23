@@ -1,0 +1,77 @@
+
+body{
+    background-image: url("../images/fundo0.jpg");
+}
+
+.boxLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+    max-width: 800px;
+	margin: 350px auto 0px auto;
+}
+
+
+h1{
+    color: #ffffff;
+    align-self: flex-start;
+    margin-left: 24px;
+}
+
+
+
+input, select {
+    display: flex;
+	max-height: 60px;
+	max-width: 400px;
+    margin-left: 10px;
+    margin-right: 10px!important;
+    margin-top: 10px;
+	border-radius: 24px;
+	border:1px solid #ffffff;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.01);
+	color: white;
+	
+}
+
+.inputCadastro{
+    width: 400px;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+
+}
+a:hover{
+	 text-decoration: underline;
+}
+
+.btnAcessar{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.btnAcessar, .btnAcessarCad :hover{
+    cursor: pointer;
+}
+
+input[type=submit]{
+		background-color: #FF0066;
+		border: none;
+}
+
+.btnAcessarCad{
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.visualizar{
+    background: white;
+}

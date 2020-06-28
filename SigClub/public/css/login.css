@@ -75,3 +75,13 @@ input[type=submit]{
 .visualizar{
     background: white;
 }
+
+
+.btn-sucess{
+    margin: 16px;
+    background-color: green !important;
+}
+
+.btn-light{
+    background-color: #f8f9fa !important;
+}

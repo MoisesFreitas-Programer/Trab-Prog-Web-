@@ -1,6 +1,9 @@
 @extends('layout.template')
 
 @section('content')
+    <div class="text-center">
+        <a href="{{url("books/create")}}" tyep="button" class="btn btn-sucess">Cadastrar </a>
+    </div>
     <div class="col-8 m-auto">
         @csrf
         <table class="table table-dark text-center">
@@ -33,7 +36,8 @@
             </tbody>
         </table>
     </div>
+
     <div class="text-center">
-    <a href="{{url("books/create")}}" class="btn btn-sucess">Cadastrar </a>
+    <a href="{{route('home.logout')}}" tyep="button" class="btn btn-light">Logout</a>
     </div>
 @endsection

@@ -18,7 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', '/layout/login_cadastro/login');
 Route::get('home', 'BookController@index')->name('home');
 Route::get('home/login', 'UserController@loginForm')->name('home.login');
+Route::get('home/logout', 'UserController@logout')->name('home.logout');
 Route::post('home/login/do', 'UserController@login')->name('home.login.do');
+
 
 
 Route::view('cadastro', '/layout/login_cadastro/cadastro');

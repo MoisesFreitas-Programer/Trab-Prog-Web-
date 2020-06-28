@@ -57,6 +57,12 @@ class UserController extends Controller
             return view('layout/livro/livros', compact('book'));
         }
     }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->route('home.login');
+    }
    
 
     public function index()

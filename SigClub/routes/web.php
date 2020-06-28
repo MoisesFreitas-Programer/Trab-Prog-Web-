@@ -13,9 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'BookController@index');
+ Route::get('/', 'BookController@index');
+//Route::get('/', 'UserController@index');
+//Route::view('/', '/layout/login_cadastro/login');
+
 
 Route::view('cadastro', '/layout/login_cadastro/cadastro');
 Route::view('login', '/layout/login_cadastro/login');
 Route::resource('books', 'BookController');
+Route:: resource('users', 'UserController');
 

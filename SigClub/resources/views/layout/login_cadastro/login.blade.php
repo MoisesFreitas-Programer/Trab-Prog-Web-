@@ -10,7 +10,7 @@
                 <input type="password" placeholder="Senha" required>
             </form>
             <input class="btnAcessar" type="submit" placeholder="Enviar">
-            <a href="{{url('users/create')}}"> Ainda não possui cadastro?<strong>'Faça o seu!'</strong></a>
+            <a href="{{url("users/create")}}"> Ainda não possui cadastro?<strong>'Faça o seu!'</strong></a>
         </div>    
     </div>
 @endsection

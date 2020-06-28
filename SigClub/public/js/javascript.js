@@ -5,7 +5,7 @@
     function confirmDel(event)
     {
         event.preventDefault();
-        //console.log(event.target.parentNode.href);
+        console.log(event.target.parentNode.href);
         let token = doc.getElementsByName("_token")[0].value;
         if(confirm("Deseja realmente apagar ?"))
         {

@@ -55,10 +55,8 @@ Para usar Sig Club, siga os seguintes passos (exemplos):
 
 As seguintes pessoas contribuiram para este projeto:
 
-* Clara Giovana Lazarini
 * Frankner Da Silva Soares
 * Moisés Freitas Barbosa
-* Willian Leite Barbosa Xavier
 
 ## Licença de uso
 

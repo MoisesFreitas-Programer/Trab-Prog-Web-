@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Http\Requests\BookRequest;
 use App\Models\ModelBook;
 use App\User;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
+use Illuminate\Foundation\Http\FormRequest;
 
 class BookController extends Controller
 {
@@ -28,7 +31,15 @@ class BookController extends Controller
     public function index()
     {
         $book = $this->objBook->all();
-        return view('/layout/livro/livros', compact('book'));
+        //dd(Auth::user());
+        if(Auth::check() === true)
+        {
+            return view('home', compact('book'));
+        } 
+            
+        return redirect()->route ('home.login');
+        
+        //return view('/layout/livro/livros', compact('book'));
         //dd($this->objBook->find(2)->relUsers); 
     }
 

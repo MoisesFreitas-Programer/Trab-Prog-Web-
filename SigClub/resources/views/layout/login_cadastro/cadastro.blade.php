@@ -21,10 +21,10 @@
                 <form method="post" action="{{url('users')}}">
             @endif
                 @csrf
-                <input class="inputCadastro" type="text" name="name" id="name" placeholder="Nome" required>
-                <input class="inputCadastro" type="text" name="email" id="email" placeholder="Email" required>
-                <input class="inputCadastro" type="text" name="password" id="password" placeholder="Senha" required>
-                <input class="inputCadastro" type="text" name="celular" id="celular" placeholder="celular" required>
+                <input class="inputCadastro" type="name" name="name" id="name" placeholder="Nome" required>
+                <input class="inputCadastro" type="email" name="email" id="email" placeholder="Email" required>
+                <input class="inputCadastro" type="password" name="password" id="password" placeholder="Senha" required>
+                <input class="inputCadastro" type="phone" name="celular" id="celular" placeholder="celular" required>
                 <input class="btnAcessarCad" type="submit" placeholder="Cadastrar" value="@if(isset($users))Editar @else Cadastrar @endif">
             </form>
             <a href="../login"> Já possui cadastro? <strong> Login!</strong></a>

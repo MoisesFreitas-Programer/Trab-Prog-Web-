@@ -1,32 +1,32 @@
 # Sig Club
 
-<!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer inc
+<!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
 
 O "Sig Club" é uma aplicação web desenvolvida para aproximar os leitores aos seus livros de respectivos interesses.
 
-Esta aplicação tem por objetivo alcançar pessoas amantes de livros e permitir que recebam livros para leitura de seu interesse. Não somente isso, mas também receberem alguns presentes para incentivo da leitura e ao alcance de mais conhecimento sobre os conteúdos de seus respectivos interesses.
+Esta aplicação tem por objetivo alcançar pessoas amantes de livros e permitir que compartilhem livros para leitura de seu interesse. Não somente isso, mas também receberem alguns itens a mais para incentivo da leitura e ao alcance de mais conhecimento sobre os conteúdos de seus respectivos interesses.
 
 ## Pré-requisitos
 
 Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
 
 * Você deve possuir a acesso a internet por um navegador, tais como chrome, firefox, edge ou semelhantes.
-* Você deve possuir um cartão de crédito/débito para assinar o plano.
-* Você deve possuir um endereço fixo, para que seja possível o envio dos packs.
+* Você deve possuir cadastro no SigClub.
+* Você deve possuir conta ativa, para que seja possível o envio dos possíveis packs.
 * Você deve ler o `<guia/link/documentação>` dos termos de uso.
 
 ## Backlog do Produto
 
 | ID |  História  |
 | ------------------- | ------------------- |
-|  1 |  O cliente deve conseguir preencher um questionário. |
-|  2 |  O cliente deve conseguir escolher o plano. |
-|  3 |  O cliente deve conseguir incluir o item em um carrinho de compras. |
-|  4 |  O cliente deve conseguir pagar sua compra via boleto bancário. |
-|  5 |  O cliente deve conseguir pagar sua compra via cartão de crédito. |
-|  6 |  O cliente deve conseguir rastrear sua encomenda. |
-|  7 |  O cliente deve ser notificado por e-mail das etapas de sua compra (pagamento, aprovação, correio). |
-|  8 |  O cliente deve conseguir enviar feedback de seu atendimento após recebimento do produto. |
+|  1 |  O cliente deve conseguir preencher o cadastro. |
+|  2 |  O cliente deve conseguir escolher o livro de seu interesse. |
+|  3 |  O cliente deve conseguir incluir que já possui originalmente. |
+|  4 |  O cliente deve conseguir solicitar novos livros de seu interesse. |
+|  5 |  O cliente deve conseguir efetuar download do livro de seu interesse. |
+|  6 |  O cliente deve conseguir compartilhar mais livros a medida que julgar necessário. |
+|  7 |  O cliente deve ser notificado por e-mail das etapas de sua solicitação (upload / download). |
+|  8 |  O cliente deve conseguir enviar feedback de seu atendimento após recebimento do(s) livro(s). |
 
 
 ## Como executar
@@ -45,8 +45,8 @@ Para usar Sig Club, siga os seguintes passos (exemplos):
 * Ao abrir a aplicação você poderá:
   * Navegar pelo conteúdo público
   * Entrar com usuário e senha para ter acesso as demais funcionalidades
-  * Responder o questionário
-  * Alterar plano/endereço/cartão
+  * Responder o questionário (opcional)
+  * Alterar dados de cadastro
   
 
 ## Contribuidores

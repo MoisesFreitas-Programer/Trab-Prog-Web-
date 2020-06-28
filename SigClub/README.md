@@ -1,8 +1,6 @@
 # Sig Club
 
-<!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
-![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
-![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
+<!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer inc
 
 O "Sig Club" é uma aplicação web desenvolvida para aproximar os leitores aos seus livros de respectivos interesses.
 

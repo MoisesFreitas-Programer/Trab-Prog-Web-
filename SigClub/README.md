@@ -1,79 +1,65 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# Sig Club
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+<!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
+![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
+![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
 
-## About Laravel
+O "Sig Club" é uma aplicação web desenvolvida para aproximar os leitores aos seus livros de respectivos interesses.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Esta aplicação tem por objetivo alcançar pessoas amantes de livros e permitir que recebam livros para leitura de seu interesse. Não somente isso, mas também receberem alguns presentes para incentivo da leitura e ao alcance de mais conhecimento sobre os conteúdos de seus respectivos interesses.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Pré-requisitos
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
 
-## Learning Laravel
+* Você deve possuir a acesso a internet por um navegador, tais como chrome, firefox, edge ou semelhantes.
+* Você deve possuir um cartão de crédito/débito para assinar o plano.
+* Você deve possuir um endereço fixo, para que seja possível o envio dos packs.
+* Você deve ler o `<guia/link/documentação>` dos termos de uso.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Backlog do Produto
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| ID |  História  |
+| ------------------- | ------------------- |
+|  1 |  O cliente deve conseguir preencher um questionário. |
+|  2 |  O cliente deve conseguir escolher o plano. |
+|  3 |  O cliente deve conseguir incluir o item em um carrinho de compras. |
+|  4 |  O cliente deve conseguir pagar sua compra via boleto bancário. |
+|  5 |  O cliente deve conseguir pagar sua compra via cartão de crédito. |
+|  6 |  O cliente deve conseguir rastrear sua encomenda. |
+|  7 |  O cliente deve ser notificado por e-mail das etapas de sua compra (pagamento, aprovação, correio). |
+|  8 |  O cliente deve conseguir enviar feedback de seu atendimento após recebimento do produto. |
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Como executar
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-- [云软科技](http://www.yunruan.ltd/)
+Para acessar a aplicação siga os seguintes passos:
 
-## Contributing
+* Abra seu navegador e digite "Sig Club", ou digite a URL "https://sigclub...."
+* Em seguida cadastre-se, ou faça o login com seu usuário e senha.
+* E responda o questionário para entendermos melhor qual seu perfil de leitor.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Usando o Sig Club 
 
-## Code of Conduct
+Para usar Sig Club, siga os seguintes passos (exemplos):
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+* Abra o navegador e digite o seguinte endereço: `http://sigclub/....`, ou mesmo "Sig Club" 
+* Ao abrir a aplicação você poderá:
+  * Navegar pelo conteúdo público
+  * Entrar com usuário e senha para ter acesso as demais funcionalidades
+  * Responder o questionário
+  * Alterar plano/endereço/cartão
+  
 
-## Security Vulnerabilities
+## Contribuidores
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+As seguintes pessoas contribuiram para este projeto:
 
-## License
+* Frankner Da Silva Soares
+* Moisés Freitas Barbosa
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Licença de uso
+
+<!--- Se não tiver certeza de qual, verifique este site: https://choosealicense.com/--->
+Este projeto usa a seguinte licença: [<nome_da_licenca>](<link>).
+*Você também deve criar um arquivo chamado LICENSE no projeto*

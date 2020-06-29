@@ -40,6 +40,6 @@
     </div>
 
     <div class="text-center">
-    <a href="{{route('home.logout')}}" tyep="button" class="btn btn-light">Logout</a>
+        <a href="{{route('home.logout')}}" tyep="button" class="btn btn-light">Logout</a>
     </div>
 @endsection

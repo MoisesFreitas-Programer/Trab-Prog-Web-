@@ -20,7 +20,7 @@ Route::get('home', 'BookController@index')->name('home');
 Route::get('home/login', 'UserController@loginForm')->name('home.login');
 Route::get('home/logout', 'UserController@logout')->name('home.logout');
 Route::post('home/login/do', 'UserController@login')->name('home.login.do');
-
+Route::get('/livros','BookController@index')->name('teste.livros');
 
 
 Route::view('cadastro', '/layout/login_cadastro/cadastro');

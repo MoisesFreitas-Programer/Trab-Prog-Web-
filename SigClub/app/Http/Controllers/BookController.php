@@ -34,7 +34,7 @@ class BookController extends Controller
         //dd(Auth::user());
         if(Auth::check() === true)
         {
-            return view('home', compact('book'));
+            return view('/layout/livro/livros', compact('book'));
         } 
             
         return redirect()->route ('home.login');
@@ -84,7 +84,7 @@ class BookController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($id)
-    {
+    {   
         $book = $this->objBook->find($id);
         return view('/layout/livro/show', compact('book'));   
     }

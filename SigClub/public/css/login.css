@@ -85,3 +85,7 @@ input[type=submit]{
 .btn-light{
     background-color: #f8f9fa !important;
 }
+
+.btn-primary{
+    margin: 16px;
+}

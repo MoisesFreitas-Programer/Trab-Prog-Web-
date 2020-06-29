@@ -63,6 +63,7 @@ class BookController extends Controller
     public function store(BookRequest $request)
     {
         $cadastro = $this->objBook->create([
+            'autor'=>$request->autor,
             'title'=>$request->title,
             'pages'=>$request->pages,
             'id_user'=>$request->id_user,

@@ -22,9 +22,10 @@
             @endif
                 @csrf
                 <input class="inputCadastro" type="string" name="title" id="title" placeholder="titulo:" value="{{$book->title ?? ''}}" required>
+                <input class="inputCadastro" type="string" name="autor" id="autor" placeholder="autor:" value="{{$book->autor ?? ''}}" required>
                 <input class="inputCadastro" type="integer" name="pages" id="pages" placeholder="paginas:" value="{{$book->pages ?? ''}}" required>
                 <select class="inputCadastro" name="id_user" id="id_user" required>
-                <option value="{{$book->relUsers->id ?? ''}}">{{$book->relUsers->name ?? 'Autor/Usuário'}}</option>
+                <option value="{{$book->relUsers->id ?? ''}}">{{$book->relUsers->name ?? 'Usuário'}}</option>
                     @foreach ($users as $user)
                         <option value="{{$user->id}}">{{$user->name}}</option>
                     @endforeach

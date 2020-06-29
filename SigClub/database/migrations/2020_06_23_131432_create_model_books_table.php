@@ -17,6 +17,7 @@ class CreateModelBooksTable extends Migration
             $table->increments('id');
             $table->integer('id_user')->unsigned();
             $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->string('autor');
             $table->string('title'); 
             $table->integer('pages');
             $table->timestamps();

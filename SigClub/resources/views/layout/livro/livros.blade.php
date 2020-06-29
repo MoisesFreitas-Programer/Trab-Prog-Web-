@@ -10,8 +10,9 @@
             <thead>
             <tr>
                 <th scope="col">Id</th>
+                <th scope="col">Usuário</th>
+                <th scope="col">Autor</th>
                 <th scope="col">Titulo</th>
-                <th scope="col">Autor/Usuário</th>
                 <th scope="col">Paginas</th>
                 <th scope="col">Ações</th>
             </tr>
@@ -23,8 +24,9 @@
                 @endphp
                 <tr>
                     <th scope="row">{{$books->id}}</th>
-                    <td>{{$books->title}}</td>
                     <td>{{$user->name}}</td>
+                    <td>{{$books->autor}}</td>
+                    <td>{{$books->title}}</td>
                     <td>{{$books->pages}}</td>
                     <td>
                         <a href="{{url("books/$books->id")}}" class="btn btn-dark">Visualizar</a>
